@@ -10,4 +10,4 @@ echo "Saving Account Balance: " . $savingAcc->getbalance() . "\n";
 $currentAcc = new CurrenctAccount('CA123', 500, 200);
 $currentAcc->deposit(300);
 $currentAcc->withdraw(1000);
-echo "Current Balance: " . $current->getBalance() . "\n";
+echo "Current Balance: " . $currentAcc->getBalance() . "\n";
